@@ -1,0 +1,120 @@
+body{
+    background-color: #444444;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  width: 95%;
+  grid-gap: 5px;
+  background-color: #444444;
+  margin: 0 auto;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+  .item1 {
+    padding: 10%;
+    background-color: rgb(9, 12, 240);
+    color: #a0a0a0;
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 15px 0 0 15px;
+  }
+  .item1 a{
+    color: #a0a0a0;
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+  }
+
+  .item1 h2{
+    text-transform:uppercase;
+    color: #a0a0a0;
+    font-size: 250%;
+    font-family: serif;
+    margin-bottom: 0px;
+  }
+
+  .item1 ul{
+    color: #a0a0a0;
+    font-size: 150%;
+    margin-left: -20%;
+    list-style-type: none;
+  }
+  
+  .item2 {
+    padding: 5%;
+    background-color: #5db2f8;
+    grid-column: 2 / span 3;
+    grid-row: 1;
+    border-radius: 0 15px 15px 0;
+
+  }
+
+  .item2 h1{
+    color: #444444;
+    font-family: serif;
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 500%;
+    margin-top: -2%;
+  }
+  
+  .item2 p{
+    font-size: 200%;
+    text-align: justify;
+    color: #444444;
+  }
+#Bemutatkozas{
+  color: #444444;
+  font-family: serif;
+  border-bottom: 2px solid;
+  width: 40%;
+  font-size: 250%;
+}
+#Vegzetseg{
+  color: #444444;
+  font-family: serif;
+  border-bottom: 2px solid;
+  width: 40%;
+  font-size: 250%;
+}
+#Eredmenyek{
+  color: #444444;
+  font-family: serif;
+  border-bottom: 2px solid;
+  width: 40%;
+  font-size: 250%;
+}
+#Hobby{
+  color: #444444;
+  font-family: serif;
+  border-bottom: 2px solid;
+  width: 40%;
+  font-size: 250%;
+}
+#Diakmunka{
+  color: #444444;
+  font-family: serif;
+  border-bottom: 2px solid;
+  width: 40%;
+  font-size: 250%;
+}
+#Tervek{
+  color: #444444;
+  font-family: serif;
+  border-bottom: 2px solid;
+  width: 40%;
+  font-size: 250%;
+}
+a:hover{
+  color: aqua;
+}
+img{
+  width: 100%;
+  border-radius: 200px 200px 200px 200px;
+}
